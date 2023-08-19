@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: ['https://harmonious-selkie-7b54ca.netlify.app/'],
+    origin: ['http://localhost:3000'],
   })
 );
 
